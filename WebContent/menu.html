@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu &amp; Offers | Ya Mohaideen Briyani</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand"><span class="flame">🔥</span> Ya Mohaideen Briyani</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html" class="active">Menu &amp; Offers</a></li>
+      <li><a href="reservation.html">Reserve a Table</a></li>
+      <li><a href="login.html" class="nav-cta">Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="reservation-header">
+  <div class="container">
+    <h1>Menu &amp; Offers</h1>
+    <p>Fresh off the stove — our newest dishes and today's best deals.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+
+    <div class="section-eyebrow">Just Launched</div>
+    <h2 class="section-title">Recently Introduced Dishes</h2>
+    <p class="section-sub">New additions our chefs have been perfecting.</p>
+
+    <div class="filter-bar">
+      <div class="filter-chip active" data-filter="all">All</div>
+      <div class="filter-chip" data-filter="briyani">Briyani</div>
+      <div class="filter-chip" data-filter="starters">Starters</div>
+      <div class="filter-chip" data-filter="desserts">Desserts</div>
+    </div>
+
+    <div class="grid-3" id="newDishesGrid">
+
+      <div class="card reveal" data-category="briyani">
+        <div class="card-media"><span class="icon-food">🍛</span><span class="badge badge-new">New</span></div>
+        <div class="card-body">
+          <h3>Ya Mohaideen Special Mutton Briyani</h3>
+          <p>Slow-cooked mutton briyani with our signature blend of 18 spices.</p>
+          <div class="price-row"><span class="price">₹320</span><span class="tag">Briyani</span></div>
+        </div>
+      </div>
+
+      <div class="card reveal" data-category="briyani">
+        <div class="card-media"><span class="icon-food">🍗</span><span class="badge badge-new">New</span></div>
+        <div class="card-body">
+          <h3>Chicken 65 Briyani</h3>
+          <p>Classic chicken briyani topped with crispy chicken 65.</p>
+          <div class="price-row"><span class="price">₹260</span><span class="tag">Briyani</span></div>
+        </div>
+      </div>
+
+      <div class="card reveal" data-category="briyani">
+        <div class="card-media"><span class="icon-food">🦐</span><span class="badge badge-new">New</span></div>
+        <div class="card-body">
+          <h3>Prawn Masala Briyani</h3>
+          <p>Fresh prawns simmered in a spicy masala, layered with fragrant rice.</p>
+          <div class="price-row"><span class="price">₹340</span><span class="tag">Briyani</span></div>
+        </div>
+      </div>
+
+      <div class="card reveal" data-category="desserts">
+        <div class="card-media"><span class="icon-food">🍨</span><span class="badge badge-new">New</span></div>
+        <div class="card-body">
+          <h3>Rose Falooda</h3>
+          <p>Chilled rose-flavoured dessert with vermicelli and ice cream.</p>
+          <div class="price-row"><span class="price">₹90</span><span class="tag">Desserts</span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="height:60px;"></div>
+
+    <div class="section-eyebrow">Today's Deals</div>
+    <h2 class="section-title">Offers Going On</h2>
+    <p class="section-sub">Limited-time discounts on select favourites.</p>
+
+    <div class="grid-3">
+
+      <div class="card reveal" data-category="briyani">
+        <div class="card-media"><span class="icon-food">🍛</span><span class="badge badge-offer">15% Off</span></div>
+        <div class="card-body">
+          <h3>Weekend Special</h3>
+          <p>15% off our Ya Mohaideen Special Mutton Briyani, every weekend.</p>
+          <div class="price-row">
+            <span class="price"><span class="old">₹320</span>₹272</span>
+            <span class="tag">Valid till Dec 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card reveal" data-category="briyani">
+        <div class="card-media"><span class="icon-food">🦐</span><span class="badge badge-offer">10% Off</span></div>
+        <div class="card-body">
+          <h3>Seafood Friday</h3>
+          <p>10% off Prawn Masala Briyani every Friday.</p>
+          <div class="price-row">
+            <span class="price"><span class="old">₹340</span>₹306</span>
+            <span class="tag">Valid till Dec 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card reveal" data-category="desserts">
+        <div class="card-media"><span class="icon-food">🍨</span><span class="badge badge-offer">20% Off</span></div>
+        <div class="card-body">
+          <h3>Sweet Treat Combo</h3>
+          <p>20% off Rose Falooda when ordered with any briyani.</p>
+          <div class="price-row">
+            <span class="price"><span class="old">₹90</span>₹72</span>
+            <span class="tag">Valid till Dec 2026</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center; margin-top:50px;">
+      <a href="reservation.html" class="btn btn-primary"><i class="fa-solid fa-calendar-check"></i>&nbsp; Reserve a Table to Try These</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom">&copy; 2026 Ya Mohaideen Briyani &middot; Pammal, Chennai &middot; +91 98765 43210</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  document.querySelectorAll(".filter-chip").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      document.querySelectorAll(".filter-chip").forEach((c) => c.classList.remove("active"));
+      chip.classList.add("active");
+      const filter = chip.dataset.filter;
+
+      document.querySelectorAll("#newDishesGrid .card").forEach((card) => {
+        card.style.display = (filter === "all" || card.dataset.category === filter) ? "" : "none";
+      });
+    });
+  });
+</script>
+</body>
+</html>
