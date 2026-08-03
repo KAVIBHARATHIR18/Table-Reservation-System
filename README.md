@@ -82,17 +82,3 @@ private static final String DB_PASSWORD = "password";
 Right-click the project → `Run As → Run on Server`. It should open
 `index.html`. Register an account, log in, then go to **Reserve a
 Table**.
-
-## Notes / Things to Personalize
-
-- Contact number and address in `index.html` / `reservation.html` /
-  `menu.html` footers are placeholders — replace with the real ones.
-- `menu.html` content is currently static HTML; if you'd like it pulled
-  live from the `dishes` / `offers` tables instead, that would need one
-  more servlet (e.g. `/menu`) that queries those tables and returns JSON,
-  similar to `TableAvailabilityServlet`. Happy to add that if useful.
-- Passwords are stored in plain text in `users.password` for simplicity,
-  matching typical academic-project scope. For anything beyond a class
-  project, hash passwords (e.g. with `BCrypt`) before storing them.
-- Time slots are hard-coded in `js/reservation.js` (`TIME_SLOTS`) — edit
-  that array to match your actual restaurant hours.
